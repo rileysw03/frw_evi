@@ -1,0 +1,19 @@
+name = "evi"
+main = "index.js"  # Ensure this matches your main script
+compatibility_date = "2024-03-16"
+
+[triggers]
+crons = ["*/2 * * * *"]  # Optional: Runs every 10 minutes
+
+[vars]
+API_URL = "https://api.weather.gov/products/types/EVI"
+
+name = "frw"
+main = "index.js"  # Ensure this matches your main script
+compatibility_date = "2024-03-16"
+
+[triggers]
+crons = ["*/10 * * * *"]  # Optional: Runs every 10 minutes
+
+[vars]
+API_URL = "https://api.weather.gov/products/types/FRW"
