@@ -1,4 +1,4 @@
-name = "evi"
+name = "frwevi2"
 main = "index.js"  # Ensure this matches your main script
 type = "javascript"
 compatibility_date = "2024-03-16"
