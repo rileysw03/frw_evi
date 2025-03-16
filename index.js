@@ -23,9 +23,7 @@ export default {
       return new Response("Error fetching data", { status: 500 });
     }
   },
-};
-
-export default {
+  
   async fetch(request) {
     const apiUrl = "https://api.weather.gov/products/types/EVI"; // Replace with your API
 
@@ -51,3 +49,4 @@ export default {
     }
   },
 };
+
